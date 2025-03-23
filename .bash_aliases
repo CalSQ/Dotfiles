@@ -1,0 +1,8 @@
+alias encrypt='gpg -c'
+alias decrypt='gpg -d'
+alias ls='ls -lah --color=auto'
+alias grep='grep --color=auto'
+alias archive='tar -czvf'
+alias extract='tar -xzvf'
+alias refresh='source ~/.bashrc'
+alias diskspace='ncdu'
