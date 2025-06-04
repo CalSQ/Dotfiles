@@ -1,0 +1,11 @@
+[Unit]
+Description=mpvpaper wallpaper
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/mpvpaper "*" --loop --mute --no-audio --hwdec=auto /path/to/vid.mp4 
+Restart=always
+Environment=WAYLAND_DISPLAY=wayland-1
+
+[Install]
+WantedBy=default.target

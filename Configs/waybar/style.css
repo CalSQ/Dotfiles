@@ -1,0 +1,69 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "FiraCode Nerd Font", monospace;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+/* Left */
+#workspaces {
+    margin-left: 6px;
+}
+
+#workspaces button {
+    padding-right: 6px;
+    background: transparent;
+    color: white;
+}
+
+#workspaces button:not(.active) {
+    color: #888888;
+}
+
+/* Center */
+#window {
+   margin-right: 6px; 
+   color: #888888;
+}
+
+/* Right */
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-bluetooth {
+    padding: 0 6px;
+}
+
+#cpu {
+    margin-left: 6px;
+}
+
+#memory {
+    margin-right: 12px;
+}
+
+#pulseaudio {
+    margin-right: 6px;
+}
+
+#custom-bluetooth {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#custom-bluetooth {
+    font-size: 13px;
+}
+
+#pulseaudio.muted {
+}
+
+#tray {
+    margin-left: -6px;
+    margin-right: 12px;
+}
+
